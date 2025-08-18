@@ -1,0 +1,12 @@
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+
+    background-image: linear-gradient(to right, #202C39, #283845);
+}
