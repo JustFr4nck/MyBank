@@ -2,11 +2,59 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mozilla+Headline:wght@200..700&display=swap');
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body{
 
-    background-image: linear-gradient(to right, #202C39, #283845);
+    background-color: linear-gradient(to right, #202C39, #283845);
 }
+
+/* bottoni */
+
+.mybtn {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+.mybtn span {
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.text1 {
+  transform: translateX(0);
+}
+
+.text2 {
+  position: absolute;
+  inset: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  margin-top: 8%;
+}
+
+.mybtn:hover .text1 {
+  transform: translateX(-30%);
+}
+
+.mybtn:hover .text2 {
+  transform: translateX(30%);
+}
+
+
+/*  */

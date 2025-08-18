@@ -1,5 +1,29 @@
 <template>
 
+    <div class="flex flex-col justify-center items-center h-screen">
+        <h1 class="luckiest-guy-regular ">Saldo totale</h1>
+        <h2 class="luckiest-guy-regular">€ {{ totalBalance }}</h2>
+
         
+            <div class="join mt-5 w-60">
+                <button class="btn mybtn join-item bg-success w-1/2 rounded">
+                    <span class="text1">Guadagno</span>
+                    <span class="text2">💸​</span>
+                </button>
+                <button class="btn mybtn join-item bg-error w-1/2 rounded">
+                    <span class="text1">Spesa</span>
+                    <span class="text2">💰​</span>
+                </button>
+
+            </div>
+            <div class="join mt-5">
+                <button class="btn join-item bg-info w-69 rounded">Movimenti</button>
+            </div>
+
+        
+    </div>
+
+
+
 
 </template>
