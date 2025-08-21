@@ -6,8 +6,8 @@ import Movimenti from './Movimenti.vue';
 <template>
     <div class="flex flex-col justify-center items-center h-screen">
 
-        <h1 class="luckiest-guy-regular ">Saldo totale</h1>
-        <h2 class="luckiest-guy-regular">€ {{ }}</h2>
+        <h1 class="luckiest-guy-regular text-5xl">Saldo totale</h1>
+        <h2 class="luckiest-guy-regular text-5xl">€ {{ }}</h2>
 
 
         <div class="join mt-5 w-60">
