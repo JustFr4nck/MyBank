@@ -1,11 +1,12 @@
-
 <template>
-  <MyHome/>
+
+    <RouterView/>
+
 </template>
 
 
 <script setup lang="ts">
 
-  import MyHome from './views/MyHome.vue';
+
 
 </script>
