@@ -57,6 +57,7 @@ function setVoid() {
 
         showAdd.value = true;
         showAlert.value = false;
+
         setTimeout(() => {
 
             showAdd.value = false;
@@ -79,4 +80,14 @@ function setVoid() {
 
 
 }
+
+async function backendConnection(){
+
+    const backEnd = await fetch("http://localhost:3000/");
+    const data = await backEnd.json();
+    console.log(data);
+}
+
+backendConnection()
+
 </script>

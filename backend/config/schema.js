@@ -1,5 +1,4 @@
     const mongoose = require("mongoose");
-
     const {Schema, model} = mongoose;
 
     const movement = new Schema({
@@ -8,6 +7,6 @@
         newMovement: String
     });
 
-    const FinalSchema = model('FinalSchema', movement);
+    const FinalSchema = model('database', movement);
 
     module.exports = FinalSchema;
